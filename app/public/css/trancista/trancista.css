@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.index{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.index .barra{
+    background-color: #D3B38C;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra img{
+    width: 10rem;
+}
+
+.barra-branca{
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icones{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding: 1rem;
+}
+
+.icones img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.papel-parede{
+    height: 170px;
+    width: 100%;
+    background-color: #e71313;
+    position: relative;
+}
+
+.perfil{
+    width: 130px;
+    height: 131px;
+    border: solid 1px #D3B38C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 50%
+}
+
+.perfil img{
+    width: 122px;
+    height: 131px;
+}
+
+.nome{
+    margin-top: 60px;
+}
+
+.nome h1{
+    text-align: center;
+    color: #D3B38C;
+    font-weight: 100;
+}
+
+.estrela{
+    width: 95px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+}
+
+.estrela img{
+    width: 15px;
+    height: 15px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redes img{
+    width: 32px;
+    height: 31px;
+    margin: 0 12px;
+}
+
+.end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.endereco{
+    width: 300px;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #D3B38C;
+    
+}
+
+.endereco p{
+    text-align: center;
+}
+
+.endereco button{
+    width: 146px;
+    height: 33px;
+    padding: 2px 2px 2px 2px;
+    background-color: #D3B38C;
+}
+.expediente{
+    width: 300px;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #D3B38C;
+    
+}
+
+.expediente p{
+    text-align: center;
+}
+
+.mobilidade{
+    width: 300px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #D3B38C;
+    
+}
+
+.mobilidade p{
+    text-align: center;
+}

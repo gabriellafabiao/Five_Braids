@@ -1,0 +1,306 @@
+/* -------------------------INDEX----------------------------- */
+/*<img src="/img/logo/logo_FB_2.png"  width="23.5%" height="100%">*/
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* -------------------------LOGIN----------------------------- */
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo img{
+    width: 10rem;
+}
+
+.container{
+    width: 370px;
+    padding: 12px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.user-details .input-box input{
+    height: 35px;
+    width: 100%;
+    font-weight: 500;
+    outline: none ;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    border-bottom-width: 1px;
+    transition: all 0.5s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #D3B38C ; 
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+    color: #815d30;
+}
+
+.input-box{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.input1 input {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.esqueceu-senha{
+    font-size: 15px;
+}
+
+form input[type="radio"]{
+    display: none;
+}
+form .button{
+    height: 45px;
+    margin: 45px;
+    margin-top: 50px;
+}
+form .button input{
+    height: 80%;
+    width: 100%;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #D3B38C, #815d30);
+}
+
+form .button input:hover{
+    background: linear-gradient(-135deg, #D3B38C, #815d30);
+}
+
+.email input, .senha {
+    width: 100%
+}
+
+
+/* -------------------------ESCOLHA---------------------------- */
+
+.titulo h3 {
+    color: #000000;
+    text-align: center;
+}
+
+.cliente_button{
+    height: 45px;
+    margin: 45px;
+}
+
+.cliente_button button{
+    height: 80%;
+    width: 100%;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #D3B38C, #815d30);
+}
+
+.cliente_button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.trancista_button{
+    height: 45px;
+    margin: 45px;
+}
+
+.trancista_button button{
+    height: 80%;
+    width: 100%;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #D3B38C, #815d30);
+}
+
+.trancista_button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.button-voltar a{
+    
+    outline: none;
+    color: #815d30;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+/* -------------------------CLIENTE---------------------------- */
+
+.logo2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo2 img{
+    width: 10rem;
+}
+
+.user-details h4{
+    font-size: 50%;
+}
+
+.cliente_cadas_button{
+    height: 45px;
+    margin: 45px;
+}
+
+.cliente_cadas_button button{
+    height: 80%;
+    width: 100%;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #D3B38C, #815d30);
+}
+
+.cliente_cadas_button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.inp-cliente input {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.inp-cliente{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------TRANCISTA----------------------------- */
+
+.bg-login{
+    background: linear-gradient(0.25turn, #D3B38C, #815d30);
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+
+.logo3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo3 img{
+    width: 10rem;
+}
+
+.container3{
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 15%;
+    padding: 2rem;
+}
+
+.container3 form .user-details2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-details2 .input-box2 input{
+    height: 35px;
+    width: 100%;
+    margin: 10px 0;
+    font-weight: 500;
+    outline: none ;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    border-bottom-width: 1px;
+    transition: all 0.5s ease;
+}
+
+.user-details2 .input-box2 input:focus,
+.user-details2 .input-box2 input:valid{
+    border-color: #D3B38C ; 
+}
+
+.user-details2 h4{
+    font-size: 50%;
+}
+
+.user-details2 .input-box2 select{
+    height: 35px;
+    width: 145%;
+    font-weight: 500;
+    outline: none ;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    border-bottom-width: 1px;
+    transition: all 0.5s ease;
+}
+
+.user-details2 .input-box2 select:focus,
+.user-details2 .input-box2 select:valid{
+    border-color: #D3B38C ; 
+}
+
+#UF{
+    width: 100%;
+    margin: 10px 0;
+}
+
+h5.titulo{
+    margin: 30px 0;
+}
+
+.fundo{
+    padding: 40px;
+}
+
+/* -------------------------SENHA----------------------------- */
+
+.senha{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 400px){
+    .container{width: 85%;}
+}

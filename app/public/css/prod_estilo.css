@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background:#ffffff;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100%;
+}
+
+.index{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.index .barra{
+    background-color: #D3B38C;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra img{
+    width: 10rem;
+}
+
+.barra-branca{
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+    
+}
+
+.icones{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding: 1rem;
+}
+
+.icones img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.jumbo h2{
+    text-align: center;
+    color: #D3B38C;
+    font-size: 450%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.container-prod{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card img{
+    width: 270px;
+    height: 220px;
+    overflow: hidden;
+    border: 2px solid #D3B38C;
+}
+
+.container-prod .card .prod-img{
+    width: 230px;
+}
+
+.container-prod .card .prod-img img{
+    width: 100%;
+}
+
+.prod-inf h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.espaco{
+    margin-top: 5px;
+}
+
+.prod-inf h6{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.circ{
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.circulo{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.preto{
+    background-color: black;
+}
+
+.loiro{
+    background-color: rgb(202, 161, 25);
+}
+
+.castanho{
+    background-color: rgb(120, 64, 0);
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.roxo{
+    background-color: purple;
+}
+
+.azul{
+    background-color: rgb(78, 149, 231);
+}
+
+.dourado{
+    background-color: #B8860B;
+}
+
+.prata{
+    background-color: #C0C0C0;
+}
+
+.btn button{
+    width: 270px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #D3B38C;
+    color: #D3B38C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    width: 100%;
+    background-color: #D3B38C;
+    padding-bottom: 50px;
+}
+
+.redessociais img{
+    width: 60px;
+    margin-top: 60px;
+}
+
+.redessociais{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+hr{
+    width: 90%;
+    height: 5px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape img{
+    width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.rodape-texto{
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+li ul{
+    margin-top: 25px;
+}

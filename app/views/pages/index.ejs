@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <title>Five Braids</title>
+</head>
+
+<body>
+    <div class="index">
+        <div class="barra">
+            <img src="img/logo/logo_FB_2.png">
+        </div>
+        <div class="barra-branca">
+            <div onclick="animar()" id="btn" class="menu">
+                <div class="barra-index">
+                    <div class="barra-menu barra-1"></div>
+                    <div class="barra-menu barra-2"></div>
+                    <div class="barra-menu barra-3"></div>
+                </div>
+            </div>
+            <li class="categoria">
+                <ul>COMO FUNCIONA</ul>
+                <ul>Seja um Profissional</ul>
+                <ul>Minha Conta</ul>
+                <ul>PRODUTOS</ul>
+                <ul>Jumbo</ul>
+                <ul>Kanekalon</ul>
+                <ul>Lã</ul>
+                <ul>Laces</ul>
+                <ul>Perucas</ul>
+                <ul>Acessório para tranças</ul>
+                <ul>Gel</ul>
+            </li>
+            <div class="icones">
+                <img src="img/icones/procurar.png">
+                <img src="img/icones/user.png">
+                <img src="img/icones/bolsa-de-compras.png">
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-texto">
+                <h1>ENCONTRE A TRANCISTA <BR> MAIS PRÓXIMA <BR> A SUA REGIÃO!</h1>
+                <button>ENCONTRE AQUI</button>
+            </div>
+        </div>
+        <div class="texto">
+            <h1>QUEM SOMOS</h1>
+            <p>A Five Braids é uma plataforma online <br> que visa ajudar o encontro entre <br>trancita e cliente de
+                fora confiável.<br><br>A plataforma também contará com <br> vendas de produtos para ambos.</p>
+        </div>
+        <div class="icones-texto">
+            <h1>COMO FUNCIONA</h1>
+            <div class="icones-estrutura">
+                <div class="icones-img">
+                    <img src="img/icones/local-na-rede-internet (1).png">
+                    <p>Faça seu cadastro como cliente</p>
+                </div>
+                <div class="icones-img">
+                    <img src="img/icones/localizacao-do-mapa (1).png">
+                    <p>Encontre o profissional mais próximo a sua região</p>
+                </div>
+                <div class="icones-img">
+                    <img src="img/icones/calendario.png">
+                    <p>Agente data e hórario com a sua trancista</p>
+                </div>
+            </div>
+            <div class="saiba-mais">
+                <button>SAIBA MAIS</button>
+            </div>
+        </div>
+        <div class="quadrado">
+            <div class="quadrado-estrutura">
+                <h1>Cadastra-se como <br> profissional</h1>
+                <p>Preencha as informações a seguir:</p>
+                <img src="img/icones/empregado.png">
+                <div class="form">
+                    <label>E-mail:</label>
+                    <input type="email">
+                </div>
+                <div class="form2">
+                    <label>Telefone:</label>
+                    <input type="password">
+                </div>
+
+                <div class="quadrado-botao">
+                    <button>CADASTRA-SE</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="mais-vendidos">
+            <h1>MAIS VENDIDOS</h1>
+            <div class="mais-vendidos-img">
+                <div class="mais-vendidos-1">
+                    <img src="img/produtos/jumbo/jumbo1.png">
+                    <h4>Produto 1</h4>
+                    <p>R$ 0,00</p>
+                    <div class="vend-botao">
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+                <div class="mais-vendidos-2">
+                    <img src="img/produtos/jumbo/jumbo2.png">
+                    <h4>Produto 2</h4>
+                    <p>R$ 0,00</p>
+                    <div class="vend-botao">
+                        <button>COMPRAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="redessociais">
+                <img src="img/icones/twitter.png">
+                <img src="img/icones/instagram.png">
+                <img src="img/icones/facebook.png">
+            </div>
+            <hr>
+            <div class="rodape">
+                <img src="img/logo/logo_FB_2.png">
+            </div>
+            <div class="rodape-texto">
+                <li>
+                    <ul>Contato</ul>
+                    <ul>FAQ</ul>
+                    <ul>Política de Privacidade</ul>
+                    <ul>Termos e Condições</ul>
+                </li>
+            </div>
+        </footer>
+    </div>
+    <script>
+        $('.categoria').hide();
+        $('.menu').click(function () {
+            $('.categoria').toggle(200);
+        })
+
+        $('.menu').click(function () {
+            $('.barra-2').toggle()
+        })
+        function animar(){
+            const btn = document.getElementById('btn')
+            btn.classList.toggle('ativar')
+        }
+    </script>
+</body>
+
+</html>
